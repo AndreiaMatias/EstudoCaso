@@ -2,23 +2,24 @@
     font-family: Arial;
 }
 
-header {
-    background-color: navy;
-    color: #ffffff;
+#dadosPessoais {
     text-align: center;
 }
 
-h3 {
+header, h3 {
     background-color: navy;
     color: #ffffff;
 }
 
-#empresa {
+#contato{
+    background-color: #ffffff;
+    color: navy;
+}
+.empresa, .escola {
     font-weight: bold;
     color: navy;
 }
 
-#escola {
-    font-weight: bold;
-    color: navy;
+#contato li, .empresa, #escolaridade li,#cursos li{
+    list-style: none;
 }
